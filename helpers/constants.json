@@ -1,0 +1,25 @@
+{
+  "roles_permissions": {
+    "ADMIN":["ROLE_DASHBOARD_RO"],
+    "USER":["ROLE_DASHBOARD_RO"],
+    "SUPER_ADMIN":["ROLE_DASHBOARD_RO", "ROLE_SETTINGS_RO"]
+  },
+
+  "statusCodes": {
+    "401": "Please login to view this page",
+    "403": "Sorry, you don't have enough permissions to perform this operation",
+    "500": "Internal server error. Please try again. If the problem persists please contact a system administrator."
+  },
+
+  "errorMessages": {
+    "signup_failed": "Mandatory fields missing."
+  },
+
+  "dbConfig": {
+    "dbName":"learnexpress",
+    "url": "mongodb://localhost:27017"
+
+  },
+
+  "enableAppLogging": false
+}

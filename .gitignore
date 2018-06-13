@@ -1,0 +1,10 @@
+# Files to be ignored
+.DS_Store
+.idea
+package-lock.json
+
+
+# Directories to be ignored
+
+node_modules
+
